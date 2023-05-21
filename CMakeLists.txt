@@ -8,5 +8,6 @@ add_executable(
 
         main.cpp
 
-        Graph.cpp
+        Graphs/Graph0/Graph.cpp
+        Graphs/Graph1/Graph.cpp
 )

@@ -9,7 +9,7 @@
  * \details
  * Depth First Search also quoted as DFS is a Graph Traversal Algorithm.
  * Time Complexity O(|V| + |E|) where V is number of vertices and E
- * is number of edges in graph.
+ * is number of m_edges in graph.
  *
  * Application of Depth First Search are
  *
@@ -112,19 +112,19 @@ namespace graph {
 
 // /** Main function */
 // int main() {
-//     size_t vertices = 0, edges = 0;
+//     size_t vertices = 0, m_edges = 0;
 //     std::cout << "Enter the Vertices : ";
 //     std::cin >> vertices;
 //     std::cout << "Enter the Edges : ";
-//     std::cin >> edges;
+//     std::cin >> m_edges;
 //
 //     /// creating graph
 //     std::vector<std::vector<size_t>> adj(vertices, std::vector<size_t>());
 //
-//     /// taking input for edges
-//     std::cout << "Enter the vertices which have edges between them : "
+//     /// taking input for m_edges
+//     std::cout << "Enter the vertices which have m_edges between them : "
 //               << std::endl;
-//     while (edges--) {
+//     while (m_edges--) {
 //         size_t u = 0, v = 0;
 //         std::cin >> u >> v;
 //         graph::addEdge(&adj, u, v);

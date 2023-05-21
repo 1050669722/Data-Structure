@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-#include "Graph.h"
+#include "Graphs/Graph0/Graph.h"
 
 int main(int argc, char* argv[])
 {
@@ -20,8 +20,8 @@ int main(int argc, char* argv[])
     // std::vector<std::vector<size_t>> adj(vertices, std::vector<size_t>());
     std::shared_ptr<std::vector<std::vector<size_t>>> adjPtr = std::make_shared<std::vector<std::vector<size_t>>>(vertices, std::vector<size_t>());
 
-    /// taking input for edges
-    std::cout << "Enter the vertices which have edges between them : "
+    /// taking input for m_edges
+    std::cout << "Enter the vertices which have m_edges between them : "
               << std::endl;
     while (edges--) {
         size_t u = 0, v = 0;
